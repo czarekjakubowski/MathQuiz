@@ -26,10 +26,8 @@ public class MainActivity extends AppCompatActivity {
     //This method counts points in question 1
 
     public void onRadioButtonClickedQ1(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
 
-        // Check which radio button was clicked
+        boolean checked = ((RadioButton) view).isChecked();
         switch(view.getId()) {
             case R.id.q1A:
                 if (checked)
@@ -53,10 +51,8 @@ public class MainActivity extends AppCompatActivity {
     //This method counts points in question 2
 
     public void onRadioButtonClickedQ2(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
 
-        // Check which radio button was clicked
+        boolean checked = ((RadioButton) view).isChecked();
         switch(view.getId()) {
             case R.id.q2A:
                 if (checked)
@@ -93,10 +89,8 @@ public class MainActivity extends AppCompatActivity {
     //This method counts points in question 4
 
     public void onRadioButtonClickedQ4(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
 
-        // Check which radio button was clicked
+        boolean checked = ((RadioButton) view).isChecked();
         switch(view.getId()) {
             case R.id.q4A:
                 if (checked)
@@ -117,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // Checking if all answers in question 5 are correct
+    // Checking if all answers in question 5 are correct AND NO WRONG ANSWERS ARE CHOSEN
 
     public void onCheckboxClicked(View view) {
 
